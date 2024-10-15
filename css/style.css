@@ -1,0 +1,766 @@
+/* common css start */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.sub_title{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.title{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+button{
+    padding: 24px 64px;
+    background-color: #FFD2A4;
+    border-radius: 12px;
+}
+
+.pera{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    
+}
+/* common css end  */
+
+/* navbar css start */
+#navbar{
+    background-color: #000000;
+    width: 100%;
+    height: 80px;
+    padding:12px 0 ;
+}
+#navbar nav{
+    display: flex;
+    align-items: center;
+
+}
+#navbar .brand_logo{
+    width: 20%; 
+}
+
+#navbar .menu_item{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+#navbar .menu_item ul{
+    display: flex;
+    column-gap: 48px;
+}
+
+#navbar .menu_item ul li a{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+#navbar .menu_item .btn button{
+    padding: 20px 48px;
+    background-color: #FFD2A4;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+
+#navbar .menu_item .btn button a{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #1C1D28;
+    text-transform: uppercase;
+}
+
+/* navbar css end */
+
+/* banner css start */
+#banner{
+    background-image: url(../images/banner_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 128px 0;
+}
+
+#banner .banner_info .sub_title{
+    font-weight: 700;
+}
+
+#banner .banner_info .title{
+    font-size: 64px;
+    color: #FFFFFF;
+    width: 592px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+#banner .banner_info .btn button a{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #1C1D28;
+    text-transform: uppercase;
+
+}
+
+#banner .banner_info .pera{
+    width: 308px;
+    padding-top: 64px;
+}
+
+/* banner css end */
+
+
+/* relevant end start */
+
+#relevant{
+    padding: 128px 0;
+    background-color: #FFF;
+}
+
+#relevant .title_warpper{
+    text-align: center;
+
+}
+#relevant .title_warpper .sub_title, #relevant .title_warpper .title{
+    color: #161722;
+}
+#relevant .item_warpper{
+    display: flex;
+    justify-content: space-between;
+}
+#relevant .item_warpper .item{
+    height: 380px;
+    width: 411px;
+    padding: 80px;
+    background-color: #FFF5EB;
+    margin-top: 64px;
+    position: relative;
+}
+
+
+#relevant .item_warpper .item::after{
+    content: "";
+    border: 5px solid #FFD2A4;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 97.5%;
+
+}
+
+#relevant .item_warpper .item h3{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 700;
+    color: #161722;
+    text-transform: uppercase;
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+#relevant .item_warpper .item .pera{
+    color:#161722;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+}
+
+/* relevant css end */
+
+/* love css start */
+#love{
+    padding: 128px 0;
+    background-color: #FFF;
+}
+
+#love .title_warpper{
+    text-align: center;
+}
+
+#love .title_warpper .sub_title{
+    color: #161722;
+
+}
+
+#love .title_warpper .title{
+    color: #161722;
+    padding-bottom: 16px;
+}
+
+#love .title_warpper .pera{
+    color: #161722;
+    width: 846px;
+    margin: 0 auto;
+    padding-top:32px;
+    padding-bottom: 56px;
+}
+#love .title_warpper .btn button{
+    border: none;
+}
+#love .title_warpper .btn button a{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #1C1D28;
+    text-transform: uppercase;
+
+}
+
+#love .love_img_warpper{
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+#love .love_img_warpper .item:nth-child(2) {
+    padding-top: 48px;
+}
+#love .vision_title{
+    text-align: center;
+    padding-top: 64px;
+}
+
+ #love .vision_title .sub_title{
+    color: #161722;
+
+}
+
+#love .vision_title .title{
+    color: #161722;
+}
+
+#love .vision_title .pera{
+    color: #161722;
+    width: 512px;
+    margin: 0 auto;
+
+}
+
+#love .vision_title .btn button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+#love .vision_title button a{
+    color: #161722;
+} 
+
+
+/* love css end */
+
+/* benifit css start */
+#benifit{
+    padding: 128px 0;
+    background-color: #F5F2F0;
+}
+#benifit .benifit_title{
+    text-align: center;
+}
+#benifit .benifit_title .sub_title{
+    color: #161722;
+}
+
+#benifit .benifit_title .title{
+    color: #161722;
+    width: 438px;
+    margin: 20px auto 64px auto;
+}
+#benifit .benifit_img .item{
+    position: relative;
+    overflow: hidden;
+}
+#benifit .benifit_img{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#benifit .benifit_img .item .item_info{
+    width: 100%;
+    height: 50%;
+    padding: 32px;
+    position: absolute;
+    bottom: -85px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    
+}
+
+#benifit .benifit_img .item:hover .item_info{
+    background: linear-gradient(0deg, #060606 2%, #00000061 100%);
+    bottom: 0;
+    transition: .4s;
+}
+
+#benifit .benifit_img .item .item_info h5{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+
+
+#benifit .benifit_img .item .item_info p{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 0%, 78%);
+    margin: 16px 0 32px 0;
+
+}
+
+
+/* benifit css end */
+
+/* upcoming css start */
+#upcoming{
+    padding: 128px 0;
+}
+
+#upcoming .upcoming_title{
+    text-align: center;
+    color: #161722;
+}
+
+#upcoming .upcoming_title .sub_title{
+    color: #161722;
+}
+
+#upcoming .upcoming_title .title{
+    color: #161722;
+    width: 554px;
+    margin: 0 auto;
+    padding: 16px 0 64px 0;
+}
+#upcoming .upcoming_info{
+    display: flex;
+}
+#upcoming .upcoming_info .upcoming_info_text {
+    padding: 61px 90px;
+    background-color: #FFF5EB;
+    position: relative;
+}
+
+#upcoming .upcoming_info .date{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top:32px ;
+    padding-right: 32px;
+}
+
+#upcoming .upcoming_info .date h4{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #161722;
+}
+
+#upcoming .upcoming_info .date p{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #161722;
+    text-align: center;
+}
+
+
+#upcoming .upcoming_info .sub_title{
+    font-size: 12px;
+    font-weight: 700;
+    color: #DC9853;
+    letter-spacing: 2px;
+}
+
+#upcoming .upcoming_info .title{
+    color: #161722;
+    width: 210px;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 16px 0;
+}
+#upcoming .upcoming_info .pera{
+    color: #161722;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 256px;
+}
+#upcoming .upcoming_info .upcoming_info_text .time {
+    display: flex;
+    column-gap: 16px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+#upcoming .upcoming_info .upcoming_info_text .time .icon{
+    font-size: 20px;
+}
+#upcoming .upcoming_info .upcoming_info_text .time_info{
+    width: 137px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #161722;
+}
+
+#upcoming .upcoming_info .upcoming_info_text .address {
+    display: flex;
+    column-gap: 16px;
+}
+
+#upcoming .upcoming_info .upcoming_info_text .address .icon{
+    font-size: 25px;
+}
+#upcoming .upcoming_info .upcoming_info_text .address_info{
+    width: 184px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #161722;
+}
+
+
+#upcoming .upcoming_info .upcoming_info_text .btn{
+    background-color: #161722;
+    margin-top: 32px;
+}
+#upcoming .upcoming_info .upcoming_info_text .btn a{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFD2A4;
+}
+#upcoming .up_comming_bottom_btn{
+    text-align: right;
+    margin-top: 48px;
+}
+#upcoming .up_comming_bottom_btn button{
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+
+
+#upcoming .up_comming_bottom_btn button a{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #161722;
+}
+
+#upcoming .up_comming_bottom_btn button a span{
+vertical-align: middle;
+}
+
+/* upcoming css end */
+
+/* serve the world css start */
+#world{
+    background-image: url(../images/serve_the_world_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 128px 0;
+}
+
+#world .world_card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 72px 0;
+    border-bottom: 16px solid #FFD2A4;
+    margin: 0 auto;
+    width: 768px;
+
+}
+
+#world .world_card .card_text .title{
+    color: #161722;
+    width: 388px;
+}
+
+#world .world_card .card_text .pera{
+    color: #161722;
+    width: 302px;
+    margin: 16px 0;
+}
+
+#world .world_card .card_text button{
+    border: none;
+    padding: 24px 64px;
+}
+
+#world .world_card .card_text button a{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1C1D28;
+}
+/* serve the world css end */
+
+
+/* blog css start */
+#blog{
+   padding: 128px 0;
+}
+#blog .blog_title{
+    text-align: center;
+}
+#blog .blog_title .sub_title{
+    color: #161722;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+#blog .blog_title .title{
+    color: #161722;
+}
+#blog .blog_card{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#blog .blog_card .card_item{
+    background-color: #FFF5EB;
+    padding: 48px 32px 48px 32px;
+    width: 302px;
+    position: relative;
+    cursor: pointer;
+}
+
+#blog .blog_card .card_item::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #FFD0A0;
+    height: 16px;
+    width: 0%;
+}
+
+#blog .blog_card .card_item:hover::before{
+    width: 100%;
+    transition: .8s;
+}
+
+#blog .blog_card .card_item .card_sub_title{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 8%;
+    background: linear-gradient(to top, #A54E2B , #DC9853);
+    color: transparent;
+    background-clip: text;
+}
+
+#blog .blog_card .card_item .card_title{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1%;
+    color: #161722;
+    margin: 16px 0;
+}
+
+#blog .blog_card .card_item .pera{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #161722;
+}
+
+#blog .blog_card .card_item .card_profile{
+    margin-top: 48px;
+}
+
+#blog .blog_card .card_item .card_profile p{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #161722;
+}
+
+#blog .blog_card .card_item .card_profile p:first-child{
+    margin-bottom: 4px;
+}
+/* blog css end */
+
+
+/* footer css start */
+
+footer{
+    background-color: #161722;
+    padding: 64px 0;
+    
+}
+
+footer .content{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer_logo_part p{
+font-family: "Roboto Condensed", sans-serif;
+font-size: 12px;
+color: #FFFFFF;
+font-weight: 400;
+margin-top: 16px;
+}
+
+footer .footer_logo_part .company_info{
+    margin-top: 32px;
+}
+
+footer .footer_logo_part .company_info ul li{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+
+footer .footer_logo_part .company_info ul li:first-child{
+    margin-top: 0px;
+}
+
+footer .footer_subscribe_part{
+    display: flex;
+    column-gap: 115px;
+}
+
+footer .footer_subscribe_part .footer_link{
+    display: flex;
+    column-gap: 72px;
+}
+footer .footer_subscribe_part .quick_link h6{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+footer .footer_subscribe_part .quick_link ul{
+    margin-top: 20px;
+}
+
+footer .footer_subscribe_part .quick_link ul li{
+    margin-bottom: 24px;
+}
+
+footer .footer_subscribe_part .quick_link ul li a{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255, 78%);
+    font-weight: 400;
+}
+
+footer .footer_subscribe_part .connect h6{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+footer .footer_subscribe_part .connect .icon i{
+    color: #FFD2A4;
+    font-size: 16px;
+    margin-right: 20px;
+}
+footer .footer_subscribe_part .subscirbe p{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 1%;
+    width: 377px;
+    margin-bottom: 32px;
+}
+
+footer .footer_subscribe_part .subscirbe form{
+    position: relative;
+}
+
+footer .footer_subscribe_part .subscirbe input{
+    border-color: rgb(255, 255, 255,15%);
+    color: #fff;
+    background-color: transparent;
+    width: 512px;
+    height: 64px;
+    padding: 20px;
+    border-radius: 12px;
+    outline: none;
+}
+
+footer .footer_subscribe_part .subscirbe input::placeholder{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255,80%);
+    line-height: 24px;
+
+}
+footer .footer_subscribe_part .subscirbe button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+footer .footer_subscribe_part .subscirbe button a{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    color: #1C1D28;
+    line-height: 16px;
+}
+
+
+
+/* footer css end */
+
